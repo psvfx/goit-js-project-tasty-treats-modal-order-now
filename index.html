@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
+    <!-- КНОПКА-ЕМІТАЦІЯ -->
+    <button type="button" class="modal-order-now-open-btn" data-modal-open>
+      OPEN modal ORDER Now
+    </button>
+    <!-- РОБОЧИЙ КОД -->
     <div class="backdrop-order-now" data-modal>
       <div class="modal-order-now">
         <button
@@ -16,7 +21,7 @@
           data-modal-close
         >
           <svg class="modal-order-now-close-btn-icon" width="10" height="10">
-            <use href=""></use>
+            <use href="./images/close-modal.svg"></use>
           </svg>
         </button>
 
@@ -82,5 +87,7 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>

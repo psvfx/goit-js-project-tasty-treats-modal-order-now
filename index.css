@@ -1,3 +1,22 @@
+/* СТИЛІ КНОПКИ-ЕМІТАЦІЇ */
+.modal-order-now-open-btn {
+  display: block;
+  margin: 24px auto;
+  width: 295px;
+  align-self: center;
+  padding: 15px 10px;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: normal;
+  color: #f8f8f8;
+  background-color: #9bb537;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* РОБОЧІ СТИЛІ  */
 .is-hidden {
   opacity: 0;
   visibility: hidden;
