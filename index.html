@@ -12,17 +12,30 @@
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <!-- КНОПКА-ЕМІТАЦІЯ -->
-    <button type="button" class="modal-order-now-open-btn" data-modal-open>
-      OPEN modal ORDER Now
+    <!-- КНОПКА-ЕМІТАЦІЯ: Відкриття модального вікна -->
+    <button
+      type="button"
+      class="modal-order-now-open-btn"
+      data-modal-order-now-open
+    >
+      Order now
     </button>
+
+    <!-- ЧЕКБОКС-ЕМІТАЦІЯ: Перемикач теми Світла-Темна  -->
+    <div class="switcher-burger">
+      <label class="switch">
+        <input type="checkbox" name="switcher_checkbox" id="switcherCheckbox" />
+        <span class="slider-header round"></span>
+      </label>
+    </div>
+
     <!-- РОБОЧИЙ КОД -->
-    <div class="backdrop-order-now" data-modal>
+    <div class="backdrop-order-now" data-modal-order-now>
       <div class="modal-order-now">
         <button
           type="button"
           class="modal-order-now-close-btn"
-          data-modal-close
+          data-modal-order-now-close
         >
           <svg class="modal-order-now-close-btn-icon" width="12" height="12">
             <use href="./images/icons.svg#icon-close-modal"></use>
@@ -92,6 +105,7 @@
       </div>
     </div>
 
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal-order-now-close.js"></script>
+    <script src="./js/dark-theme.js"></script>
   </body>
 </html>
